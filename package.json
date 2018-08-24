@@ -59,9 +59,8 @@
     "webpack-node-externals": "^1.5.4"
   },
   "peerDependencies": {
-    "react": ">=0.15.0",
     "prop-types": ">=15.5.0",
-    "oidc-client": "^1.4.1"
+    "react": ">=0.15.0"
   },
   "optionalDependencies": {
     "immutable": ">=3.6.0"
@@ -70,5 +69,8 @@
     "transform": [
       "reactify"
     ]
+  },
+  "dependencies": {
+    "react": "^16.4.2"
   }
 }

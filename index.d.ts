@@ -1,5 +1,5 @@
 declare module 'redux-oidc' {
-    import { UserManager, UserManagerSettings, User } from 'oidc-client';
+    import { UserManager, UserManagerSettings, User } from './src/oidc-client';
     import { Map, fromJS } from 'immutable';
     import { Middleware, Store } from 'redux';
     import * as React from 'react';
